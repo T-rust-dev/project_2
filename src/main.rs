@@ -8,5 +8,9 @@ fn main() {
     point_scored = 35;
 
 
+    #[allow(unused_variables)]
+    let favourite_beverage: &str = "malt";
+
+
     println!("team {season} scored {} with a touchdown of {1} !", point_scored, TOUCHDOWN_POINTS);
 }
